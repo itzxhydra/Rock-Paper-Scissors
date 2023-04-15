@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  .score {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .choices {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  .choice {
+    border: 2px solid black;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  .choice:hover {
+    border-color: green;
+  }
+  .rock {
+    background-image: url("https://static.thenounproject.com/png/477914-200.png");
+    background-size: contain;
+  }
+  .paper {
+    background-image: url("https://static.thenounproject.com/png/477912-200.png");
+    background-size: contain;
+  }
+  .scissors {
+    background-image: url("https://static.thenounproject.com/png/4811077-200.png");
+    background-size: contain;
+  }
+  .result {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  .again {
+    font-size: 24px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+  }  
